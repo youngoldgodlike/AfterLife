@@ -106,7 +106,6 @@ namespace Character.Stealth
                     return;
                 }
                 
-                // Debug.Log($"DIST: {dist}, RADIUS: {_collider.radius + 0.7f}");
             } while (dist < _collider.radius + 0.7f);
         }
         

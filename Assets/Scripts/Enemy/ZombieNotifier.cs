@@ -11,7 +11,6 @@ public class ZombieNotifier : Singleton<ZombieNotifier>
     public event Action OnDialogStart;
     public event Action OnDialogEnd;
 
-    [ContextMenu("ALMAZ UKRALI SUKI")]
     public void DiamondPickedUp() {
         OnDiamondPickedUp?.Invoke();
         _audio.PlayOneShot(_zombiesScream);

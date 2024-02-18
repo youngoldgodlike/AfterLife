@@ -15,8 +15,6 @@ namespace Assets.Scripts.Character.CharacterBehaviours
             camera.MinVerticalAngle = 20f;
             camera.MaxVerticalAngle = 20;
             camera.FollowTransform.position += new Vector3(0f, 2f, 0f);
-            //Debug.Log("Set new follow point for camera");
-            //camera.SetFollowTransform(GameObject.Find("FollowPoint2").transform);
         }
     }
 }
